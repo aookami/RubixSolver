@@ -1,6 +1,24 @@
 package core;
 
-public abstract class Piece {
+public class Piece {
 
-    public abstract void move();
+
+
+    Color color;
+
+    public Piece(Color color){
+        this.color = color;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
+    }
+
+
+
+
 }
